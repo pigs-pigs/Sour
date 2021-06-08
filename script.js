@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	var songs = [
-    {
+       {
       title: "traitor",
       artist: "Olivia Rodrigo",
       cover:
@@ -217,19 +217,23 @@ function lightMode(){
   $("#camera span").removeClass("dark-mode")
   $("#iphone").removeClass("dark-mode")
 }
-// Bluetooth
-$("#bluetooth-btn").click(function () {
-  if ($("#bluetooth-btn").hasClass("active")) {
-    $("#bluetooth-btn").removeClass("active");
-    lightMode();
+// Volume
+$("#volume-btn").click(function () {
+  if ($("#volume-btn").hasClass("fa-volume-off")) {
+        $("#volume-btn").removeClass("fa-volume-off");
+         $("#volume-btn").removeClass("active");
+
+        $("#volume-btn").addClass("fa-volume-up");
+player.volume = 0.5;
   } else {
-    $("#bluetooth-btn").addClass("active");
-    darkMode();
+    $("#volume-btn").removeClass("fa-volume-up");
+    $("#volume-btn").addClass("fa-volume-off");
+player.volume = 0
   }
 });
 
 $("#sub-controls i").click(function () {
-	if (!$(this).hasClass("fa-bluetooth-b")) {
+	if (!$(this).hasClass("fa-volume-up")) {
 		$(this).toggleClass("active");
 	}
 
