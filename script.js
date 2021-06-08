@@ -41,11 +41,11 @@ $(document).ready(function () {
       color: "#c94c4c"
     },
     {
-      title: "enough for u",
+      title: "enough for you",
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/enough for u.mp3",
+      audioFile: "mp3/enough for you.mp3",
       color: "#c3af50"
     },
     {
