@@ -13,7 +13,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/4-rain.mp3",
+      audioFile: "mp3/drivers license.mp3",
       color: "#92a8d1"
     },
     {
@@ -21,7 +21,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/5-free.mp3",
+      audioFile: "mp3/1 step forward 3 steps back.mp3",
       color: "#f7cac9"
     },
     {
@@ -29,7 +29,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/6-fun.mp3",
+      audioFile: "mp3/deja vu.mp3",
       color: "#5d0126"
     },
     {
@@ -85,7 +85,7 @@ $(document).ready(function () {
 	for (let song of songs) {
 		$("#songs").append(
 			'<li class="song" data-audio="' +
-		+ "mp3/"+ song.title + ".mp3" + //song.audioFile +
+		         song.audioFile +
 			'" data-color="' +
 			song.color +
 			'">' +
