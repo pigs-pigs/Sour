@@ -85,7 +85,7 @@ $(document).ready(function () {
 	for (let song of songs) {
 		$("#songs").append(
 			'<li class="song" data-audio="' +
-			song.audioFile +
+		+ "mp3/"+ song.title + ".mp3" + //song.audioFile +
 			'" data-color="' +
 			song.color +
 			'">' +
