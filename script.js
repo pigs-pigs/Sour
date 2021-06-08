@@ -37,7 +37,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/7-chr2.mp3",
+      audioFile: "mp3/good 4 u.mp3",
       color: "#c94c4c"
     },
     {
@@ -45,7 +45,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/8-911.mp3",
+      audioFile: "mp3/enough for u.mp3",
       color: "#c3af50"
     },
     {
@@ -53,7 +53,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/9-plastic.mp3",
+      audioFile: "mp3/happier.mp3",
       color: "#b1cbbb"
     },
     {
@@ -61,7 +61,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/10-sour.mp3",
+      audioFile: "mp3/jealousy, jealousy.mp3",
       color: "#ffef96"
     },
     {
@@ -69,7 +69,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/11-enig.mp3",
+      audioFile: "mp3/favorite crime.mp3",
       color: "#ff7b25"
     },
     		{
@@ -77,7 +77,7 @@ $(document).ready(function () {
       artist: "Olivia Rodrigo",
       cover:
    "https://upload.wikimedia.org/wikipedia/en/b/b2/Olivia_Rodrigo_-_SOUR.png",
-      audioFile: "mp3/2-alice.mp3",
+      audioFile: "mp3/hope ur ok.mp3",
       color: "#034f84"
     },
 	];
