@@ -8,7 +8,9 @@
   font: inherit;
   vertical-align: baseline;
 }
-
+::selection {
+  background-color: transparent;
+}
 /* HTML5 display-role reset for older browsers */
 
 article,
